@@ -31,13 +31,13 @@ export default function ToAdd({addto}) {
     className="form-control text-center" id="Input" placeholder="Enter Name"/>
   </div>
   <div className="form-group py-3 ">
-    <label htmlFor="formGroupExampleInput2 py-3" className='my-3 '>Height</label>
-    <input type="text" value={height} onChange={(e)=>setheight(e.target.value)} 
+    <label htmlFor="numberInput" className='my-3 '>Height</label>
+    <input type="number" value={height} onChange={(e)=>setheight(e.target.value)} 
     className="form-control text-center" id="Input2" placeholder="Height in CM"/>
   </div>
   <div className="form-group py-3 ">
-    <label htmlFor="formGroupExampleInput2 py-3" className='my-3 '>Weight</label>
-    <input type="text" value={weight} onChange={(e)=>setweight(e.target.value)} 
+    <label htmlFor="numberInput" className='my-3 '>Weight</label>
+    <input type="number" value={weight} onChange={(e)=>setweight(e.target.value)} 
     className="form-control text-center" id="Input3" placeholder="Weight in KG"/>
   </div>
   <button className=' btn btn-warning py-2 mt-4 mb-4'>Add</button>
